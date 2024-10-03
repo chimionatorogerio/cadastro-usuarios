@@ -1,11 +1,9 @@
 package com.javanauta.aprendendospring.business;
 
-
 import com.javanauta.aprendendospring.infrastructure.entity.Usuario;
 import com.javanauta.aprendendospring.infrastructure.exceptions.ConflictException;
 import com.javanauta.aprendendospring.infrastructure.exceptions.ResourceNotFoundException;
 import com.javanauta.aprendendospring.infrastructure.repository.UsuarioRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
